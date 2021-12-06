@@ -1,0 +1,24 @@
+body {
+    background-color: #ccc;
+    background-image: URl(pic1.jpg);
+}
+.block1 {
+    position: fixed;
+    width:100%;
+    height:8%;
+    background-color: blanchedalmond;
+}
+#log1 {
+    position: absolute;
+    left:20%;
+    display: inline-block;
+}
+#log2 { 
+    position: absolute;
+    font-style: calibri; 
+    display: inline-block;  
+    right:30%;
+}
+main{
+    height:2000px;
+}
