@@ -5,8 +5,10 @@ body {
 .block1 {
     position: fixed;
     width:100%;
-    height:8%;
+    height: 5%;
+    top: -10px;
     background-color: blanchedalmond;
+    z-index: 1;
 }
 #log1 {
     position: absolute;
