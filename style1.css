@@ -3,11 +3,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: black url(pic3.png) center center repeat-x;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: black url(pic3.png) center center;
   }
   a {
     text-decoration: none;
