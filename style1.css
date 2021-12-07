@@ -4,9 +4,12 @@ body {
     padding: 0;
     margin: 0;
     background: black url(pic3.png) center center;
+    font-family: sans-serif;
   }
-  a {
+  a,a:visited {
     text-decoration: none;
+    color:whitesmoke;
+    font-family: sans-serif;
   }
 .block1 {
     position: fixed;
@@ -24,8 +27,10 @@ body {
     font-size:larger;
         margin: 0 25% auto;
     display: inline-block;
+    font-family: sans-serif;
 }
 #log2 { 
     margin: 0 0 0  auto;
-    display: inline-block;  
+    display: inline-block;
+    font-family: sans-serif;  
 }

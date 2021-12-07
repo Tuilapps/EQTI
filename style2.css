@@ -3,10 +3,13 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: black url(pic5.png) center center;
+    background: black  center center;
+    color:whitesmoke;
+    font-family: sans-serif;
   }
-  a {
+  a,a:visited {
     text-decoration: none;
+    color:whitesmoke;
   }
 .block1 {
     position: fixed;
@@ -24,16 +27,19 @@ body {
     font-size:larger;
         margin: 0 25% auto;
     display: inline-block;
+    font-family: sans-serif;
 }
 #log2 { 
     margin: 0 0 0  auto;
     display: inline-block;  
+    font-family: sans-serif;
 }
 .product {
     margin-top: 5%; 
     font-family: sans-serif;
     height: auto;
-    background-color:rgba(208, 208,208, 0.5);
+    background-color:rgba(208, 208,208, 0);
+    font-family: sans-serif;
 }
 
 .prodpic{
@@ -41,23 +47,29 @@ body {
     border-radius: 50%;
     display: inline-block;
     opacity: 1;
+    color: whitesmoke;
+    font-family: sans-serif;
 }
 .inf{
     margin:0 auto;
     display: inline-block;
     opacity: 1;
     margin:-25% 35% 0 15%;
-  width:50%;
-  height: 50%;
+    width:50%;
+    height: 50%;
+    color: whitesmoke;
+    font-family: sans-serif;
 }
 .name_product{
     color: whitesmoke;
     font-size: 25px;
+    font-family: sans-serif;
     
 }
 .inf_product{
      color: whitesmoke;
     font-size: 15px; 
+    font-family: sans-serif;
     
 }
 
