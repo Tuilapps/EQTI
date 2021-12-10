@@ -3,7 +3,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: black url(pic3.png) 50% 0% no-repeat;
+    background: black url(pic3.png) 50% 0%;
     -webkit-background-size: cover;
     background-size: cover;
     
