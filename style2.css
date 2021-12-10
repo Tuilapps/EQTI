@@ -3,7 +3,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: black  center center;
+    background: black center center;
     -webkit-background-size: cover;
     background-size: cover;
     color:whitesmoke;
@@ -18,7 +18,7 @@ body {
     position: fixed;
     top: 0%;
     width: 100%;
-    height: 5%;
+    height: 10%;
     background-color: black;
     z-index: 1;
     color: whitesmoke;
@@ -32,13 +32,13 @@ body {
 #log2 {
     font-size: larger;
     margin-left: 1%;
-    margin-right: 60%;
     letter-spacing: 0.15em;
     font-family: sans-serif;
     font-size: 25px;
     display: inline-block;
 }
 #log3 {
+    margin-left: 50%;
     letter-spacing: 0.15em;
     font-family: sans-serif;
     font-size: 18px;
@@ -46,7 +46,6 @@ body {
 }
 .product {
     margin-top: 10%;
-    margin-left: 0%;
     font-family: sans-serif;
     height: auto;
     background-color:rgba(208, 208, 208, 0);
