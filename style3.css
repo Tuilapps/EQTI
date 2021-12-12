@@ -50,8 +50,10 @@ a,a:visited {
 }
 .apps_head {
     background-color:rgba(208, 208, 208, 0);
+    margin-top: 5%;
     margin-left: 5%;
-    font-size: 120px;
+    margin-right: 5%;
+    height: 20%;
     color: whitesmoke;
     font-family: sans-serif;
 }
@@ -62,23 +64,23 @@ a,a:visited {
 }
 .apps_head_info {
     color:whitesmoke;
-    font-size: 100px;
+    font-size: 80px;
     font-family: sans-serif;
     letter-spacing: 0.10em;
     display: inline-block;
-    font-family: sans-serif;
+    margin-bottom: 0%;
 }
 .apps_head_info_e {
+    margin-top: 0%;
     color:whitesmoke;
     font-size: 20px;
     font-family: sans-serif;
+    display: inline-block;
     letter-spacing: 0.10em;
-    font-family: sans-serif;
 }
 .apps_info {
     margin-left: 5%;
     font-family: sans-serif;
     font-size: larger;
     color:whitesmoke;
-    font-family: sans-serif;
 }
