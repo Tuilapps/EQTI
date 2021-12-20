@@ -1,0 +1,228 @@
+body{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: black;
+    color: white;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    /*min-height: 7%;*/
+    height: auto;
+    background-color: whitesmoke;
+    /*background: linear-gradient(to left, #cbcbf4, #f5caf3, #f0d9c4);
+    filter: invert(0);*/
+}
+.content_header{
+    width: 100%;
+    padding: 1%;
+    padding-bottom: 0.5%;
+    height: 60px;
+    display: inline-block;
+    color: black;
+    font-family: sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 20px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 7%;
+    height: auto;
+    background-color: black;
+}
+.content_footer{
+    width: 100%;
+    padding: 1%;
+    padding-bottom: 0.5%;
+    font-family: sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 15px;
+}
+.content{
+    margin: 0 auto;
+    min-height: 97%;
+}
+.content_header div{
+    display: inline-flex;
+}
+.ogr{
+    width: 90%;
+    margin: 0 auto;
+}
+.img{
+    width:100%;
+    object-fit: cover;
+}
+.none{
+    display: none;
+}
+
+.app_nomo{
+    /* background-color: rgb(192, 89, 89); */
+    color: whitesmoke;
+    width: 100%;
+    min-height: 10px;
+    height: auto;
+    padding: 1%;
+    margin-top: 1%;
+    display: inline-flex;
+}
+.app_nomo_text{
+    /* background-color: rgb(192, 89, 89); */
+    display: inline-flex;
+    margin-left: 2%;
+}
+
+
+.icon_app{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.icon2_app{
+    width: 150px;
+    height: 150px;
+    border-radius: 22.5px;
+}
+.name{
+    margin-top: 0;
+    margin-left: 2%;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+.name2{
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 0;
+    color:whitesmoke;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.10em;
+}
+.desc{
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-top: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.apps_head {
+    background-color:rgba(208, 208, 208, 0);
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 120px;
+    color: whitesmoke;
+    /* font-family: sans-serif; */
+}
+.apps_head_info {
+    width: 100%;
+    padding: 1%;
+    margin-top: 1%;
+    display: inline-flex;
+    min-height: 10px;
+    height: auto;
+}
+
+.apps_head_info_e {
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 0.10em;
+}
+.apps_info {
+    margin-left: 2%;
+    font-family: sans-serif;
+    font-size: larger;
+    letter-spacing: 0.10em;
+    color:whitesmoke;
+}
+.block{
+   display: inline-flex;
+}
+.over{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+/*
+@media screen and (max-width:1100px) and (max-height:1400px){
+    body{
+        padding-top: 90px;
+        padding-bottom: 60px;
+    }
+}
+*/
+@media screen and (max-width:700px) {
+    .none{
+        display: block;
+        margin-top: 44%;
+    }
+    .ogr{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content{
+        width: 95%;
+    }
+    .o_p{
+        margin-right: 16px;
+        display: none;
+    }
+    .img{
+        margin-top: 50%;
+    }
+    .a{
+        margin-right: 5%;
+    }
+    .app_nomo{
+        padding: 0;
+        display: inline-flex;
+    }
+    .app_nomo_text{
+        padding: 0;
+        display: block;
+        font-size: 13px;
+    }
+    .name{
+        margin-left: 0;
+        border-right: 0;
+    }
+    .name2{
+        font-size: 35px;
+    }
+    .desc{
+        margin-left: 0;
+        margin-top: 2%;
+    }
+    
+    .apps_head {
+        margin-left: 0%;
+    }
+    .apps_info {
+        margin-left: 0%;
+    }
+    .icon2_app{
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+    }
+    .icon{
+        text-align: center;
+        margin: 0;
+        margin-top: 5%;
+    }
+}
