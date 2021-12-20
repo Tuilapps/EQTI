@@ -1,2 +1,0 @@
-# EQTI
-EGTI apps
